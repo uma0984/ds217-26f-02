@@ -6,9 +6,11 @@ TODO: Replace this line with a 30-300 character description of what this project
 
 ## Run
 
-#### To run the file, you must have python (3.13 preferred) installed and run the following command:
-`python3 clinic_report.py` # Bash /n
-`py -3.13 clinic_report.py` # Windows PowerShell /n
+#### To run the file, you must have python (3.13 preferred) installed and run the following command: 
+
+`python3 clinic_report.py` # Bash \
+
+`py -3.13 clinic_report.py` # Windows PowerShell \
 #### or simply run:
 `python clincic_report.py`
 
