@@ -2,7 +2,15 @@
 
 ## Project description
 
-TODO: Replace this line with a 30-300 character description of what this project does. (This is part of the assignment, read on and it will make more sense.)
+This is Assignment 2, completed for class `DATASCI_217` at UCSF taught by Christopher Seaman. The task covers generating a report that generates a data summary for a provided csv with clinical encounters and a report with patient ids of patients with blood pressure above a certain threshold. 
+
+The data in `data/clinical_encounters.csv` is a delimeter seperated, containing `patient_id`, `visit_date`, and the `systolic` blood pressure recorded during the visit. 
+
+`vital_tools.py` generates a set of functions useful in identifying different components of the data, and analyzing them.
+
+`clinic_report.py` generated the main report, but first it ensured that the report is upto standard (see `read_encounters()` docstring for more info). Then 2 reports are generated: 
+- `vitals_report.txt` desribes features of the original, cleaned import file (i.e `clinic_encounters.csv`)
+- `followup_report.txt` is a report that shows a list of patient ids above above or at a certain threshold cutoff. Current implementation has a deterministic cutoff but for deployment the input can come from the user by commenting out line 69 in `clinical_report.py` and uncommenting section lines 71-76. 
 
 ## Run
 

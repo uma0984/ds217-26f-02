@@ -1,4 +1,3 @@
 # Python cache
-vital_tools/_pycache__/*.pyc
-clinical_tools/_pycache__/*.pyc
-# TODO: replace this line with the pattern for compiled Python cache files.
+_pycache__/*
+*.py[cod]
