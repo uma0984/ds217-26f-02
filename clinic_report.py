@@ -28,7 +28,7 @@ def read_encounters(data_path):
     for line in lines:
         fields = line.split(",")
         if len(fields) == 3:
-            if fields[2].isint():
+            if fields[2].isdigit():
                 if 60 <= int(fields[2]) <= 250:
                     encounters.append(line)
                 else:

@@ -2,7 +2,9 @@
 
 ## Project description
 
-This is Assignment 2, completed for class `DATASCI_217` at UCSF taught by Christopher Seaman. The task covers generating a report that generates a data summary for a provided csv with clinical encounters and a report with patient ids of patients with blood pressure above a certain threshold. 
+The task covers generating a report (`vitals_report.txt`) that generates a data summary for a provided csv (`clinic_encounters.csv`) with clinical encounters. And generating a report (`followup_visit.txt`) with patient ids of patients with BP above a threshold.
+
+## Additional detail
 
 The data in `data/clinical_encounters.csv` is a delimeter seperated, containing `patient_id`, `visit_date`, and the `systolic` blood pressure recorded during the visit. 
 

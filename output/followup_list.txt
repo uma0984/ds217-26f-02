@@ -1,0 +1,10 @@
+Cutoff: 140
+Reason: Systolic reading at or above cutoff
+P002
+P006
+P011
+P014
+P018
+P022
+P025
+P028
